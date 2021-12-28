@@ -1,3 +1,14 @@
+h1{
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.btn{
+    margin-top: 1.5em;
+}
+
+/*HEADER*/
+
 header{
     padding: 40px 0;
 }
@@ -24,6 +35,8 @@ header{
     color: rgb(24,24,24);
 }
 
+/*HOME*/
+
 .miniatura-galeria{
     border: none;
     margin: 15px 0;
@@ -34,6 +47,24 @@ header{
     height: auto;
     width: 100%;
 }
+
+/*ABOUT*/
+
+#about{
+    justify-content: center;
+    padding: 20px 0 40px;
+}
+
+#image__about img{
+    height: auto;
+    width: 100%;
+}
+
+#info__about{
+    margin-top: 40px;
+}
+
+/*FOOTER*/
 
 footer{
     color: rgb(150,150,150);
@@ -49,6 +80,14 @@ footer a{
 @media (min-width: 576px){}
 
 @media (min-width: 768px){
+
+    h1{
+        font-size: 3em;
+    }
+
+    #info__about{
+        margin-top: 0;
+    }
 
     footer{
         text-align: inherit;
