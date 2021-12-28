@@ -1,3 +1,3 @@
-# 5to Desafío Entregable 📋
+# Desafío Complementario 📋
 
-_Maquetando con Bootstrap por Karina del Carmen López Tejeda_
+_Aplicando Bootstrap a sección adicional por Karina del Carmen López Tejeda_
