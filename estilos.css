@@ -15,6 +15,7 @@ header{
 
 #navbarNav{
     justify-content: flex-end;
+    margin-top: 20px;
 }
 
 .navbar .navbar-toggler{
@@ -64,6 +65,26 @@ header{
     margin-top: 40px;
 }
 
+/*CONTACT*/
+
+#contact{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#contact .row{
+    justify-content: center;
+}
+
+#contact .row form{
+    margin-top: 40px;
+}
+
+#contact .row form .form-group{
+    text-align: left;
+}
+
 /*FOOTER*/
 
 footer{
@@ -85,8 +106,21 @@ footer a{
         font-size: 3em;
     }
 
+    #navbarNav{
+        margin-top: 0;
+    }
+
+    #about{
+        padding: 40px 0 60px;
+    }
+
     #info__about{
         margin-top: 0;
+    }
+
+    #contact{
+        padding-bottom: 60px;
+        padding-top: 40px;
     }
 
     footer{
